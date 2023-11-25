@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'OldStandardTT-Regular';
+  src: url('../../../public/fonts/OldStandardTT-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Hind-Regular';
+  src: url('../../../public/fonts/Hind-Regular.ttf') format('truetype')
+}
+
+
+.title-text {
+  font-family: 'OldStandardTT-Regular', serif;
+}
+
+.subtitle-text {
+  font-family: 'Hind-Regular', serif;
+}
+
+.gallery__container {
+  @apply w-full flex lg:gap-24 gap-12 overflow-auto my-6;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.hide-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.gallery__container-image {
+  @apply lg:min-w-[500px] min-w-[800px] bg-white relative px-6 lg:px-0;
+}
+
+.gallery__image {
+  @apply w-[80%] lg:h-[520px] h-[880px] object-cover;
+}
+
+.gallery__description-positioner {
+  @apply absolute top-[60%] right-0 z-10;
+}
+
+.gallery__description-container {
+  @apply flex flex-col justify-end items-end p-4;
+  background: linear-gradient(90deg, hsla(74, 9%, 62%, 0.6) 0%, hsla(240, 5%, 92%, 0.2) 60%);
+}
+
+.gallery__description-title {
+  @apply text-primary text-2xl title-text leading-none;
+}
+
+.gallery__description-subtitle {
+  @apply text-primary/50 text-lg subtitle-text leading-none;
+}

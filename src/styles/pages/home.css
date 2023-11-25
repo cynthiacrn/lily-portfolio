@@ -1,0 +1,16 @@
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25%, 75% {
+    transform: translateY(10px)
+  }
+  50% {
+    transform: translateY(5px)
+  }
+}
+
+.home__mouse-scroll-container {
+  @apply flex flex-col items-center gap-2;
+  animation: moveUpDown 1.5s ease-in-out infinite;
+}

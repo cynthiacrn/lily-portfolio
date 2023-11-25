@@ -1,0 +1,10 @@
+.header__link {
+  @apply text-tertiary;
+}
+
+.header__link.active {
+  @apply text-primary;
+}
+.header__link:hover {
+  @apply text-secondary;
+}

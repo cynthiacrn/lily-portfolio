@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'OldStandardTT-Bold';
+  src: url('../../public/fonts/OldStandardTT-Bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'OldStandardTT-Regular';
+  src: url('../../public/fonts/OldStandardTT-Regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Hind-Regular';
+  src: url('../../public/fonts/Hind-Regular.ttf') format('truetype')
+}
+
+
+.title-text {
+  font-family: 'OldStandardTT-Regular', serif;
+}
+
+.body-text {
+  font-family: 'Hind-Regular', serif;
+}
+
+* {
+  @apply m-0 p-0 box-border;
+}
+
+body {
+  @apply bg-white overscroll-none body-text text-primary;
+}
