@@ -4,8 +4,9 @@ import mouseScroll from "../assets/icons/mouse-scroll.svg";
 function Home() {
   return (
     <div className="flex flex-col items-center">
-      <div className="flex justify-center p-6">
+      <div className="flex flex-col justify-center items-center p-6">
         <h1 className="title-text text-6xl text-secondary">LILY AUDRAIN</h1>
+        {/*<p className="body-text">Design de mode</p>*/}
       </div>
       <div className="home__mouse-scroll-container">
         <div className="p-2 w-fit bg-secondary/70 rounded-full">

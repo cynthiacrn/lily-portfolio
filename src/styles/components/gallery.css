@@ -30,11 +30,11 @@
 }
 
 .gallery__container-image {
-  @apply lg:min-w-[500px] min-w-[800px] bg-white relative px-6 lg:px-0;
+  @apply lg:min-w-[500px] min-w-[800px] bg-white relative px-6 lg:px-0 scale-90 hover:scale-100 ease-in-out duration-200;
 }
 
 .gallery__image {
-  @apply w-[80%] lg:h-[520px] h-[880px] object-cover;
+  @apply w-[80%] lg:h-[520px] h-[880px] object-cover cursor-pointer;
 }
 
 .gallery__description-positioner {
